@@ -19,6 +19,7 @@
 # Author: DeRudySoulStorm
 # Author: Debeet
 # Author: Deejay1
+# Author: Dkuku
 # Author: FunPL
 # Author: GlutPaprykarz
 # Author: Ireun
@@ -1688,6 +1689,9 @@ pl:
       subject: '[OpenStreetMap] Nieudane importowanie pliku GPX'
     gpx_success:
       hi: Cześć, %{to_user},
+      loaded:
+        one: "załadowano pomyślnie %{trace_points} punkt z możliwego %{count} punktu."
+        other: "załadowano pomyślnie %{trace_points} punktów z możliwych %{count} punktów."
       subject: '[OpenStreetMap] Zaimportowano plik GPX'
     signup_confirm:
       subject: '[OpenStreetMap] Witamy w OpenStreetMap'
